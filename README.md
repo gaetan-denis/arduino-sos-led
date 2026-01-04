@@ -63,8 +63,10 @@ Push button (pull-down configuration):
 2. Button pin 1b → Arduino Pin 3
 3. 10kΩ resistor between Pin 3 and Arduino GND
 
+Below are the Tinkercad diagrams:
 
 ![Tinkercad Circuit](images/circuit.png)
+![Tinkercad Breadboard View](images/breadboard.png)
 
 ## Usage
 
