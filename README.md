@@ -66,7 +66,9 @@ Push button (pull-down configuration):
 Below are the Tinkercad diagrams:
 
 ![Tinkercad Circuit](images/circuit.png)
+*Figure 1: Schematic view showing the circuit connections.*
 ![Tinkercad Breadboard View](images/breadboard.png)
+*Figure 2: Breadboard view showing the physical layout of components.*
 
 ## Usage
 
