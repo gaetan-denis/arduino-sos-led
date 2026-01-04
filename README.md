@@ -35,8 +35,8 @@ It’s designed for beginners to learn Arduino programming, LED control, and Mor
 
 **ASCII Diagram**
 ```text
-   LED Anode (+) ---/\/\/\--- Pin 2 (Arduino OUTPUT)
-   LED Cathode (-) --------- GND
+   LED Anode (+) --------- Pin 2 (Arduino OUTPUT)
+   LED Cathode (-) ---/\/\/\--- GND
 ```
 ## Tinkercad / Fritzing Diagram
 
