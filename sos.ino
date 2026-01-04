@@ -31,7 +31,7 @@ void sendSOS()
   for (int i = 0; i < 3; ++i) dot();
   delay(UNIT*2);
    
-  // O → _ _ _
+  // O → – – –
   for (int i = 0; i < 3; ++i) dash();
   delay(UNIT*2);
   
