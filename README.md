@@ -42,9 +42,8 @@ It’s designed for beginners to learn Arduino programming, LED control, and Mor
 
 If using Tinkercad, you can replicate the wiring:
 
-1. LED anode (+) → Arduino Pin 2 through a resistor
-
-2. LED cathode (-) → Arduino GND
+1. LED anode (+) → Arduino Pin 2
+2. LED cathode (-) → resistor → Arduino GND
 
 ![Tinkercad Circuit](images/circuit.png)
 
