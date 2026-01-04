@@ -1,4 +1,7 @@
 # SOS Morse Code LED - Arduino
+![Language](https://img.shields.io/badge/language-C++-blue)
+![Status](https://img.shields.io/badge/status-learning-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
 ## Description
 
 This minimal Arduino project blinks an LED to send SOS in Morse code.
