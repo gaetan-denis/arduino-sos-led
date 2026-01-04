@@ -31,29 +31,47 @@ It’s designed for beginners to learn Arduino programming, LED control, and Mor
 
 * Breadboard and jumper wires
 
+* 1 push button
+
+* 1 resistor (10kΩ for pull-down) 
+
 ## Wiring / Diagram
 
 **ASCII Diagram**
 ```text
-   LED Anode (+) --------- Pin 2 (Arduino OUTPUT)
-   LED Cathode (-) ---/\/\/\--- GND
+LED Anode (+) --------- Pin 2 (Arduino OUTPUT)
+LED Cathode (-) ---/\/\/\--- GND
+                  220Ω
+
+5V ----[BUTTON]---- Pin 3 (Arduino INPUT)
+                      |
+                    /\/\/\
+                     10kΩ
+                      |
+                     GND
 ```
 ## Tinkercad / Fritzing Diagram
 
 If using Tinkercad, you can replicate the wiring:
 
+LED:
 1. LED anode (+) → Arduino Pin 2
-2. LED cathode (-) → resistor → Arduino GND
+2. LED cathode (-) → resistor (220Ω–1kΩ) → Arduino GND
+
+Push button (pull-down configuration):
+1. Button pin 1a → Arduino 5V
+2. Button pin 1b → Arduino Pin 3
+3. 10kΩ resistor between Pin 3 and Arduino GND
+
 
 ![Tinkercad Circuit](images/circuit.png)
 
 ## Usage
 
 1. Upload the code to your Arduino.
-
-2. The LED will blink SOS continuously.
-
-3. Adjust UNIT in the code to change the speed.
+2. Press the push button to trigger the SOS Morse code sequence.
+3. Release the button to stop the signal.
+4. Adjust UNIT in the code to change the speed.
 
 ## Code Highlights
 
@@ -62,6 +80,8 @@ If using Tinkercad, you can replicate the wiring:
 * Timing respects Morse code standard.
 
 * Easy to extend for other letters or messages.
+
+* Button input uses an external pull-down resistor for stable readings.
 
 ## License
 
